@@ -1,3 +1,4 @@
+///* Toufiq Islam - 2310728141 */
 //Find the dominant eigenvalue and corresponding eigenvector
 //Assuming that the matrix has dominant eigenvalue
 #include<iostream>

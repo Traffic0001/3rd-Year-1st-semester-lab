@@ -1,3 +1,4 @@
+/* Toufiq Islam - 2310728141 */
 //system of solution using Gauss
 #include<iostream>
 #include<iomanip>

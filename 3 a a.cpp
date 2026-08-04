@@ -1,3 +1,4 @@
+/* Toufiq Islam - 2310728141 */
 //checking n is prime or not using function
 #include<iostream>
 using namespace std;
