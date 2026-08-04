@@ -1,3 +1,4 @@
+/* Toufiq Islam - 2310728141 */
 //series sin(x)
 #include<iostream>
 #include<iomanip>

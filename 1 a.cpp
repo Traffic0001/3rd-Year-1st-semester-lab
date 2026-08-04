@@ -1,3 +1,4 @@
+/* Toufiq Islam - 2310728141 */
 //nr method
 // while is suitable than for loop
 #include<iostream>

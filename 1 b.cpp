@@ -1,3 +1,4 @@
+/* Toufiq Islam - 2310728141 */
 //implementation of Bisection method
 #include<iostream>
 #include<cmath>
