@@ -26,10 +26,10 @@ int main()
 {
     int  n, i;//a[100],
 
-    cout << "Enter number of elements: ";
+    cout << "Enter total number of element: ";
     cin >> n;
     int a[n];
-    cout << "Enter array elements:\n";
+    cout << "Enter the array elements:\n";
     for(i = 0; i < n; i++)
         cin >> a[i];
 

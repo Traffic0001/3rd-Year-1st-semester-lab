@@ -13,10 +13,15 @@ int main()
     cin >> n;
     cout<<fixed<<setprecision(0);
     
-    for(int i = 1; i <= n; i++)
+    if(n<0)
+        cout <<"\nFactorial does not exist = \n";
+    else 
+	{
+	 for(int i = 1; i <= n; i++)
         fact = fact * i;
-        
-    cout << "Factorial = " << fact;
+    cout << "Factorial = " << fact;	
+	}
+ 
 
     return 0;
 }

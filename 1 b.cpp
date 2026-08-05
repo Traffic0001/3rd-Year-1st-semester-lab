@@ -11,7 +11,7 @@ double ff(double x)
 }
 int main()
 {
-    cout<<fixed<<setprecision(7);
+    cout<<fixed<<setprecision(6);
     double a,b,c, tol,fa,fb,fc;
     
     cout<<"Please enter the required accuracy : \n";
@@ -29,13 +29,13 @@ int main()
 	else
      {
     		
-    		while(fabs(a-b)>=tol)
-    		{
+    	while(fabs(a-b)>=tol)
+    	 {
     			c=(a+b)/2.0;
 
     		    fc=ff(c);
 
-    		if(abs(fc)<1e-16)
+    		if(fabs(fc)<1e-16)
     		{
     			cout<<"\nThe required root is :"<<c<<endl;
     			break;
@@ -48,11 +48,10 @@ int main()
 				a=c;
 			}
     	
-			}
+		 }
 			
-			cout<<"The require root is : "<<c<<endl;
+			cout<<"The required root is : "<<c<<endl;
     		
-	
 	 }
 		
 	return 0;	

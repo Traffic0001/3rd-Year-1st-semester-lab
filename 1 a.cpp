@@ -17,14 +17,14 @@ using namespace std;
   }
  int main()
   {
- 	cout<<fixed<<setprecision(4);
+ 	cout<<fixed<<setprecision(5);
 
 	double a,b,tol;
 	
-	cout<<"Enter the initial value"<<endl;
+	cout<<"Enter the initial value :"<<endl;
  	cin>>a;
 
- 	cout<<"Enter the tolerance"<<endl;
+ 	cout<<"Enter the tolerance :"<<endl;
  	cin>>tol;
 
 

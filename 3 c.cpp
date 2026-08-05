@@ -7,10 +7,10 @@ int main()
 {
     int  n, i,j,temp;//a[100],
 
-    cout << "Enter number of elements: ";
+    cout << "Enter total number of elements: ";
     cin >> n;
     int a[n];
-    cout << "Enter array elements:\n";
+    cout << "Enter the array elements:\n";
     for(i = 0; i < n; i++)
         cin >> a[i];
 

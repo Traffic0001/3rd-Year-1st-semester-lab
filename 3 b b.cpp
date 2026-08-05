@@ -23,6 +23,9 @@ int main()
     cout << "Enter a number: ";
     cin >> n;
     cout<<fixed<<setprecision(0);
+    if(n<0)
+        cout <<"\nFactorial does not exist = \n";
+    else    
     cout << "Factorial = " << factorial(n);
 
     return 0;

@@ -21,7 +21,8 @@ bool check(int n)
 
 int main()
 {
-	int n,i;
+	int n,i,si;
+	start:
 	cout<<"Enter a positive integer number :"<<endl;
 	cin>>n;
 	 
@@ -29,6 +30,12 @@ int main()
 	    cout<<n<<" is a prime number. \n";
 	else 
     	cout<<n<<" is not a prime number. \n";  
+	
+	
+	cout<<"If you want to calculate again type 1 else 0 for quit :\n";
+	cin>>si;
+	if(si==1)
+	   goto start;	
 	
 	return 0;
 }

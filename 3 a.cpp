@@ -5,8 +5,9 @@
 using namespace std;
 int main()
 {
-	int n,i;
+	int n,i,si;
 	bool prime=true;
+	start:
 	cout<<"Enter a positive integer number :"<<endl;
 	cin>>n;
 	
@@ -25,7 +26,12 @@ int main()
 	if(prime)
 	    cout<<n<<" is a prime number. \n";
 	else 
-    	cout<<n<<" is not a prime number. \n";  
+    	cout<<n<<" is not a prime number. \n"; 
+	
+	cout<<"If you want to run again type 1 else 0 for quit :\n";
+	cin>>si;
+	if(si==1)
+	   goto start;	 
 	
 	return 0;
 }
