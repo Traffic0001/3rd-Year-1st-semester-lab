@@ -1,0 +1,26 @@
+Enter the user name : Mr. Harry
+Enter the previous meter reading
+1000
+Enter the present meter reading
+1600
+Total unit = 600
+Bill = 1975 Tk only
+
+
+----------------------------------------------------
+|--------------------------------------------------|
+|                 ELECTRIC BILL                    |
+|--------------------------------------------------|
+|User name        = Mr. Harry
+|Previous Reading = 1000
+|Present Reading  = 1600
+|--------------------------------------------------|
+|Unit uses        = 600
+|Unit bill        = 1975
+|Meter charge     = 50
+|Vat     (5%)     = 98.75
+|--------------------------------------------------|
+|Total bill       = 2123.75
+|--------------------------------------------------|
+
+If you want to calculate again type 1 else 0 for quit :

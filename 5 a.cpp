@@ -26,7 +26,7 @@ int main()
    
     cout<<"\nEnter the accuracy desired:\n";       
     cin>>eps;
-    k=b[0];                            //Assign some initial value to the eigen value, 'k'
+    k=0;//k=b[0];                            //Assign some initial value to the eigen value, 'k'
   	do
     {
         y=k;           
@@ -39,12 +39,12 @@ int main()
         k=c[0];
         for (i=1;i<n;i++)
         {
-        	if(abs(k)<abs(c[i]))
+        	if(fabs(k)<fabs(c[i]))
         		k=c[i];  //Find the largest element of c and assign it to k where k is the eigen value
 		}
         for (i=0;i<n;i++)
             b[i]=c[i]/k;                //Calculate the new Eigen Vector
-    }while(abs(k-y)>=eps);                
+    }while(fabs(k-y)>=eps);                
     cout<<"\n\nThe largest Eigenvalue is: "<<k<<endl;
     cout<<"\nAnd the corresponding Eigenvector is: \n";
     for (i=0;i<n;i++)

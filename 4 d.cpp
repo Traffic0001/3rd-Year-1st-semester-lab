@@ -3,6 +3,7 @@
 //marks input range(0-100) and viva & lab marks input range(0-50)
 #include <iostream>
 #include<iomanip>
+#include<string>
 using namespace std;
 float grade(float marks, int subs)
 {
@@ -41,7 +42,11 @@ int main()
 	cout<<fixed<<setprecision(3);
 	float markEach[8],totCredit=0.0,cgpa; //markEach[8] arrow collect all 8 sunject mark individual
 	int j =0, fail_count = 0;    //fail subject count
+	string name;
+	cout<<"Enter the name :"<<endl;
+	cin>>name;
 	
+	cout<<"Mr./Mrs "<<name<<"Your result: "<<endl; 
 	while(true)
 	{
 		

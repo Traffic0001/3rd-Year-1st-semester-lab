@@ -68,9 +68,5 @@ int main()
     for(j = 0; j < i; j++)
         cout << a[j];
 
-    
-    
-
-    cout << endl;
     return 0;
 }

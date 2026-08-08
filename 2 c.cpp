@@ -20,7 +20,7 @@ int main()
 {
     double x,sum=0,tol,sum1=1;
     int i=0;
-    cout<<fixed<<setprecision(10); 
+    cout<<fixed<<setprecision(6); 
     cout << "Enter x (radian): ";
     cin >> x;
     cout << "Enter tolerance : ";
